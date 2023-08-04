@@ -16,5 +16,4 @@ function changeColor() {
     return first;
 }
 
-
-alert(changeColor());
+console.log(changeColor());
