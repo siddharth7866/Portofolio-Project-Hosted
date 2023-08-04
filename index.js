@@ -1,7 +1,7 @@
-var name=document.getElementsByTagName('h1')[0];
+var sid=document.getElementsByTagName('h1')[0];
 
 
-name.style.color='red';
+sid.style.color='red';
 
 
 function changeColor() {
@@ -18,4 +18,11 @@ function changeColor() {
     return first;
 }
 
-console.log(changeColor());
+
+function color() {
+    var funcinvoke=changeColor();
+    sid.style.color=funcinvoke;
+}
+
+
+setInterval(color,200);
