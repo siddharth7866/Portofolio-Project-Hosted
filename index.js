@@ -25,4 +25,4 @@ function color() {
 }
 
 
-setInterval(color,100);
+setInterval(color,600);
