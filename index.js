@@ -9,7 +9,7 @@ function changeColor() {
     
     var first='#';
     for (let index = 0; index < 6; index++) {
-        var random=Math.floor(Math.random()*17);
+        var random=Math.floor(Math.random()*16);
         var pattern='0123456789ABCDEF';
         var ele=pattern[random];
         first=first+ele;
