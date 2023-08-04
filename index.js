@@ -5,10 +5,11 @@ name.style.color='red';
 
 
 function changeColor() {
-    var random=Math.floor(Math.random()*7);
+    
     var pattern='0123456789ABCDEF';
     var first='#';
     for (let index = 0; index < 6; index++) {
+        var random=Math.floor(Math.random()*7);
         var ele=pattern[random];
         first=first+ele;
         
