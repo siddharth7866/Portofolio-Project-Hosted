@@ -5,4 +5,5 @@ img{
     border-radius: 20px;
     object-fit: contain;
     max-width: 40%;
+    padding-right: 50%;
 }
