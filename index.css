@@ -4,4 +4,5 @@ img{
     height: 40%;
     border-radius: 20px;
     object-fit: contain;
+    max-width: 40%;
 }
