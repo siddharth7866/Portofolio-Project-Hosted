@@ -9,3 +9,9 @@ img{
     position:absolute;
     right:200px;
 }
+
+.sid{
+    border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;
+}
