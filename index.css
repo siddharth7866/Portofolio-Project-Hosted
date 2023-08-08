@@ -11,7 +11,7 @@ img{
 }
 
 .container{
-    border: 5px outset red;
+    border: 5px,5px outset red;
     background-color:#bfdbfe;    
     text-align: center;
     padding: 2rem;
