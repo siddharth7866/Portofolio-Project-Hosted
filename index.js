@@ -1,5 +1,17 @@
 var sid=document.getElementsByTagName('h1')[0];
-var advice = document.getElementById("sid");
+var advices = document.getElementById("sid");
+
+async function getAdvice() {
+  const url = await fetch("https://api.adviceslip.com/advice");
+  const data = await url.json();
+  console.log(data);
+  var advice = data.slip.advice;
+  //   var count = count + 1;
+
+  advices.textContent = advice;
+}
+
+setInterval(getAdvice, 5000);
 
 sid.style.color='red';
 
