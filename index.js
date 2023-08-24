@@ -1,5 +1,5 @@
 var sid=document.getElementsByTagName('h1')[0];
-
+var advice = document.getElementById("sid");
 
 sid.style.color='red';
 
@@ -23,6 +23,7 @@ function color() {
     var funcinvoke=changeColor();
     sid.style.color=funcinvoke;
 }
+
 
 
 setInterval(color,600);
